@@ -1,31 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Shields
+﻿namespace Shields
 {
-    public enum ImageFormat
-    {
-        Svg
-    }
-
-    public enum Style : int
-    {
-        Flat = 0,
-        FlatSquared = 1,
-        Plastic = 2
-    }
-
-    public class Badge
-    {
-        public Badge(string key, string value, Style kind = Style.Flat, ImageFormat format = ImageFormat.Svg)
-        {
-            
-        }
-    }
-
-    public class ColorScheme
+    public static class ColorScheme
     {
         public const string BrightGreen = "#4c1";
         public const string Green = "#97CA00";
