@@ -1,2 +1,2 @@
-# shields.net
+# Shields.NET
 Shields.io badges for .NET
